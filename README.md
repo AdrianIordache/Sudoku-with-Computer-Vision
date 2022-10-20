@@ -100,7 +100,7 @@ For warping, you are allowed to manually annotate points on the template for war
 
 For this task we will change the methodology for initial preprocessing, using just some 3x3 dilation for more pronounced edges, and choosing the biggest three contours based on the bounding rectangle area.
 
-After the standard perspective transform we will use a Convolutional Neural Network trained some time ago. [Project Link](https://github.com/AdrianIordache/DeepLearning-In-Pytorch/blob/master/Transfer-Learning-On-Counting-MNIST-Dataset/Assignment-2.ipynb)
+After the standard perspective transform, we will use a [Convolutional Neural Network trained some time ago](https://github.com/AdrianIordache/DeepLearning-In-Pytorch/blob/master/Transfer-Learning-On-Counting-MNIST-Dataset/Assignment-2.ipynb). 
 
 The accuracy at that time was about 99.3%, to improve that I decided to use 3 crops of TTA (Test Time Augmentation) averaging them before the argmax layer to obtain the final prediction.
 
