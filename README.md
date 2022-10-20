@@ -1,5 +1,5 @@
 # Sudoku with Computer Vision
-***Exploring non-learning (mostly) computer vision techniques based on various tasks applied to the Sudoku game***
+***Exploring non-learning (mostly) computer vision techniques for various tasks applied to the Sudoku game***
 
 ## Task 1: Extracting configurations of Classic Sudoku puzzles
 In the first task you are asked to write a program that processes an input image containing a Classic Sudoku puzzle and outputs the configuration of the puzzle by determining whether or not a cell contains a digit.
