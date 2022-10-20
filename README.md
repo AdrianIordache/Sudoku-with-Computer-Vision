@@ -6,7 +6,7 @@ In the first task you are asked to write a program that processes an input image
 
 We mark empty cells with letter ’o’ and the filled in cells with letter ’x’. The training data consists of 50 training examples. Each training example (an image obtained by taking a photo with the mobile phone) contains one Classic Sudoku puzzle, centered, usually axis aligned or with small rotations with respect to the Ox and Oy axis.
 
-![](https://github.com/AdrianIordache/Sudoku-with-Computer-Vision/blob/main/images/task-1.png).
+![](https://github.com/AdrianIordache/Sudoku-with-Computer-Vision/blob/main/images/task-1.png)
 
 ## Proposed Solution
 
@@ -45,7 +45,7 @@ The irregular shape regions from the puzzle are separated by bold borders and so
 
 The training data consists of 40 training examples (20 colored and 20 black and white Jigsaw Sudoku puzzles). Each training example (an image obtained by taking a photo with the mobile phone) contains one Jigsaw Sudoku puzzle, either colored or black and white, centered, usually axis aligned or with small rotations with respect to the Ox and Oy axis. A colored Jigsaw Sudoku puzzle will always contain regions of three possible colors: blue, yellow and red.
 
-![](https://github.com/AdrianIordache/Sudoku-with-Computer-Vision/blob/main/images/task-2.png).
+![](https://github.com/AdrianIordache/Sudoku-with-Computer-Vision/blob/main/images/task-2.png)
 
 ## Proposed Solution
 
@@ -92,8 +92,8 @@ Then you have to warp the puzzles on the template in order to obtain the desired
 
 For warping, you are allowed to manually annotate points on the template for warping (but, of course, your are not allowed to to the same thing on the test images as we want your method to be automatically) such that it is easy to map each puzzle found in the image on the corresponding side of the Cube.
 
-![](https://github.com/AdrianIordache/Sudoku-with-Computer-Vision/blob/main/images/task-3.1.png).
-![](https://github.com/AdrianIordache/Sudoku-with-Computer-Vision/blob/main/images/task-3.2.png).
+![](https://github.com/AdrianIordache/Sudoku-with-Computer-Vision/blob/main/images/task-3.1.png)
+![](https://github.com/AdrianIordache/Sudoku-with-Computer-Vision/blob/main/images/task-3.2.png)
 
 
 ## Proposed Solution
